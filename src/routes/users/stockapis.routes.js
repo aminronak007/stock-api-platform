@@ -6,6 +6,6 @@ const {
 const { verifyToken } = require("../../middlewares/jwt");
 
 router.get("/all", verifyToken, getAccessToStockApi);
-router.get("/:id", stockAPI);
+router.get("/:id", verifyToken, stockAPI);
 
 module.exports = router;
