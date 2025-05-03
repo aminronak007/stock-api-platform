@@ -10,16 +10,16 @@ const stripe = require("../../utils/stripe");
 
 const priceMap = {
   basic: {
-    monthly: "price_1RKabiSDiSNQp2yKHIaTtF5V",
-    yearly: "price_1RKacDSDiSNQp2yKatxLfV4B",
+    monthly: "price_1RKOvISFzVvjPq1yWPwCJj4h",
+    yearly: "price_1RKOvjSFzVvjPq1yTFNHo0Mo",
   },
   standard: {
-    monthly: "price_1RKacqSDiSNQp2yKgmRVDWYE",
-    yearly: "price_1RKacqSDiSNQp2yKP1fukOyQ",
+    monthly: "price_1RKOx8SFzVvjPq1yRo9JRoQU",
+    yearly: "price_1RKOx8SFzVvjPq1y2RP3bu2G",
   },
   premium: {
-    monthly: "price_1RKadoSDiSNQp2yKOSPaEj7v",
-    yearly: "price_1RKadoSDiSNQp2yKaxncp0Zr",
+    monthly: "price_1RKOxUSFzVvjPq1yJfUMPaID",
+    yearly: "price_1RKOxtSFzVvjPq1yQ4bfmgeQ",
   },
 };
 
